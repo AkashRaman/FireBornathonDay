@@ -1,0 +1,306 @@
+.center {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.landing-page-logo {
+    height: 12rem;
+}
+
+.landing-page-logo-wrapper {
+    min-width: 300px;
+    margin: 70px 10px;
+}
+
+.events-icon {
+    height: 70px;
+}
+
+#team-section .class-item > img {
+    width: 220px;
+}
+
+#team-section .class-item-text {
+    text-align: center;
+    width: 100%;
+}
+
+#team-section .class-item .class-item-text h2 {
+    font-size: 26px;
+    margin-bottom: 0px;
+    margin: 20px auto;
+}
+
+.versus-icon {
+    height: 40px;
+}
+
+.team-name {
+    font-size: 36px;
+}
+
+.class-item.hover:hover h2 {
+    color: #fff;
+}
+
+.class-item.hover:hover p, .class-item.hover:hover span {
+    color: #fff;
+}
+
+.schedule-session {
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 27px;
+}
+
+.footer-section a:hover {
+    color: #fff;
+}
+
+
+
+@media screen and (max-width: 375px) {
+    .versus-icon {
+        height: 30px;
+    }
+    
+    #contact-section h3 { font-size: 1.40rem !important; }
+    
+    #team-section .class-item .class-item-text h2 {
+        font-size: 23px;
+        margin-bottom: 0px;
+        margin: 7.5px auto;
+    }
+    
+    #pills-tab {
+        
+    }
+    
+}
+
+@media screen and (max-width: 464px) {
+    #team-section .class-item > img {
+        width: 35%;
+    }
+
+}
+
+@media screen and (max-width: 446px) {
+    .events-popup-info {
+        padding: 10px 0px !important;
+    }
+}
+
+@media screen and (max-width: 406px) {
+    .events-popup-info a {
+        padding: 4px 8px;
+    }
+    .events-popup-img{
+        min-height: 325px !important;
+    }
+    
+    h2 { font-size: 2.0rem !important; }
+    
+    .ftco-feature-1 h2 {
+        font-size: 19px !important;
+    }
+    
+    #nav-content h2, 
+    #nav-design h2, 
+    #nav-decoration h2, 
+    #nav-documentation h2, 
+    #nav-hospitlity h2, 
+    #nav-hosting h2, 
+    #nav-logistics h2 {
+        font-size: 20px !important;
+    } 
+    
+    #team-section .class-item .class-item-text h2 { font-size: 23px !important; }
+    
+    body { font-size: 0.925rem; }
+    
+    .section-heading .subheading { font-size: 1.4rem; !important}
+}
+
+@media screen and (max-width: 575px) and (min-width: 407px) {
+    .events-popup-img{
+        min-height: 400px !important;
+    }
+    
+    h2 { font-size: 2.1rem !important; }
+    
+    .ftco-feature-1 h2 { font-size: 20px !important; }
+    
+    #nav-content h2, 
+    #nav-design h2, 
+    #nav-decoration h2, 
+    #nav-documentation h2, 
+    #nav-hospitlity h2, 
+    #nav-hosting h2, 
+    #nav-logistics h2 {
+        font-size: 22.5px !important;
+    } 
+    
+    #contact-section h3 { font-size: 1.90rem !important; }
+    
+    #team-section .class-item .class-item-text h2 { font-size: 26px !important; }
+    
+    body { font-size: 1.0rem; !important}
+    
+    .section-heading .subheading { font-size: 1.4rem; !important}
+}
+
+@media screen and (min-width: 376px) and (max-width: 407px) {
+    #contact-section h3 { font-size: 1.70rem !important; }
+}
+/* 
+@media screen and (max-width: 575px) {
+    .landing-page-logo {
+        height: 150px;
+    }
+    
+}
+*/
+
+
+/*
+@media (max-width: 767px) { 
+    .no-margin {
+        margin-bottom: 0px !important;
+    }
+    
+}
+ */
+
+/* Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { 
+    .landing-page-logo {
+        height: 350px;
+    }
+} */ 
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    
+}
+
+@media (max-width: 402px) {
+    .team-list li a {
+        padding: 7px 0px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+    
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+    .mobile-box{
+        margin: 0 auto!important;
+    }
+
+    .mobile-box-hide{
+        flex: 0!important;
+        padding: 0!important;
+    }
+
+    .align-items-left{
+        margin-left: auto!important;
+    }
+    #mobile-header-box{
+        position: absolute;
+        top: -25vh;
+        left:0;
+        right:0;
+        margin-left:auto;
+        margin-right:auto;
+        padding-top: 0!important;
+    }
+
+    #mobile-header-btn{
+        padding-top: 0!important;
+        position: absolute;
+        top: 15vh;
+        left:0;
+        right:0;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops) */
+/* No media query since the extra-large breakpoint has no upper bound on its width */
+
+.ftco-feature-1 {
+    height: 104%;
+}
+
+@media (min-width: 992px){
+    .modal-lg {
+        max-width: 1000px;
+    }
+}
+
+body{
+    padding-right: 0px !important;
+}
+    
+.modal.fade .modal-dialog.modal-dialog-zoom {-webkit-transform: translate(0,0)scale(.5);transform: translate(0,0)scale(.5);}
+.modal.show .modal-dialog.modal-dialog-zoom {-webkit-transform: translate(0,0)scale(1);transform: translate(0,0)scale(1);}
+
+.events-popup-img {
+    width: 100%;
+    min-height: 500px;
+    background-position: left;
+    background-size: cover;
+}
+
+.events-popup-info {
+    margin: 5px;
+    padding: 10px 20px;
+    
+}
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .landing-page-logo {
+        height: 175px;
+    }
+    
+}
+
+@media (max-width: 576px) { 
+    .landing-page-logo {
+        height: 125px;
+    }
+ }
+@media screen and (max-width: 425px) {
+    .landing-page-logo {
+        height: 120px;
+    }
+    #mobile-header-box{
+        top: -23vh;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .landing-page-logo {
+        height: 90px;
+    }
+    #mobile-header-box{
+        top: -20vh;
+    }
+}
